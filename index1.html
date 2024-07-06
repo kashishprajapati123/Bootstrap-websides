@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>IcOn wORlD- The world of knowlage.</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></strong>IcOn wORlD</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index1.html"><strong>Home</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about1.html"><strong>About Us</strong></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="services1.html" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <strong>Services</strong>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="coding1.html"> Coding and Programming languages</a>
+                            <!-- <a class="dropdown-item" href="#">learn python</a>
+                            <a class="dropdown-item" href="#">learn JavaScript</a>
+                            <a class="dropdown-item" href="#">learn java </a>
+                            <a class="dropdown-item" href="#">learn c++ </a>
+                            <a class="dropdown-item" href="#">learn c </a> -->
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="1 to 12 .html">Normal Classes</a>
+                            <!-- <a class="dropdown-item" href="#">Class=1 to Class=12</a> -->
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="other activies1.html">Other Activities</a>
+                            <!-- <a class="dropdown-item" href="#">Singing</a>
+                            <a class="dropdown-item" href="#">Dancing</a>
+                            <a class="dropdown-item" href="#">Playing</a>
+                            <a class="dropdown-item" href="#">Many More</a> -->
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact1.html"><strong>Contact Us</strong></a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#loginBackdrop">
+                        <strong>Log in</strong>
+                    </button>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#signinBackdrop">
+                        <strong>Sign in</strong>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--Login Modal -->
+    <div class="modal fade" id="loginBackdrop" data-bs-backdrop="login" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="loginBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Log in</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container my-3">
+                        <!-- <main class="form-signin  "> -->
+                        <form>
+                            <div class="form-floating mb-3 my-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name">
+                                <label for="floatingInput">Email Address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control" id="floatingInput" placeholder="Password">
+                                <label for="floatingInput">Password</label>
+                            </div>
+                            <div class="checkbox mb-3">
+                                <label>
+                                    <input type="checkbox" value="remember-me"> Remember me
+                                </label>
+                            </div>
+                        </form>
+                        <!-- </main> -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Log in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sign in Modal -->
+    <div class="modal fade" id="signinBackdrop" data-bs-backdrop="signin" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="signinBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Creat An ICON Account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-floating mb-3 my-3">
+                            <input type="name" class="form-control" id="floatingInput" placeholder="name">
+                            <label for="floatingInput">Name</label>
+                        </div>
+                        <div class="form-floating mb-3 my-3">
+                            <input type="number" class="form-control" id="floatingInput" placeholder="name">
+                            <label for="floatingInput">Phone Number</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="coding.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1><strong>Coding world</strong></h1>
+                    <p><i>A Beautifull world for a students is coding would</i></p>
+                    <p>
+                        <a href="services1.html" class="btn btn-success btn-lg my-2"><strong>Our courses</strong></a>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="studying.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1><strong>Study Mood</strong></h1>
+                    <p><i>A Mood of study Decides your Beautifull future.</i></p>
+                    <p>
+                        <a href="services1.html" class="btn btn-success btn-lg my-2"><strong>Our courses</strong></a>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="dancig.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1><strong>Other Activities</strong></h1>
+                    <p><i>For a good Health there is many Activities and Also for a bright future</i></p>
+                    <p>
+                        <a href="services1.html" class="btn btn-success btn-lg my-2"><strong>Our courses</strong></a>
+                    </p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="container my-3">
+                <!-- <main class="form-signin  "> -->
+                <form>
+                    <h1 class="display-5 fw-bold">Sing in.</h1>
+
+
+                    <div class="form-floating mb-3 my-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name">
+                        <label for="floatingInput">Email Address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingInput" placeholder="Password">
+                        <label for="floatingInput">Password</label>
+                    </div>
+                    <div class="checkbox mb-3">
+                        <label>
+                            <input type="checkbox" value="remember-me"> Remember me
+                        </label>
+                    </div>
+                    <button class="w-100 btn btn-lg btn-success" type="submit">submit Now</button>
+                </form>
+                <!-- </main> -->
+            </div>
+            <div class="container my-4 px-0 pl-0 pr-0">
+                <div
+                    class="p-4 p-md-5 mb-4 text-white rounded bg-dark d-flex flex-column align-items-center justify-content-center">
+                    <h1 class="display-4 fst-italic" _msthash="706186" _msttexthash="576264"
+                        style="direction: ltr; text-align: left;"><strong>Icon World Is Institutes Of Knowledge</strong>
+                    </h1>
+                </div>
+            </div>
+            <div class="container px-0">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                src="https://images.unsplash.com/photo-1584697964328-b1e7f63dca95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHN0dWR5aW5nJTIwd2l0aCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="">
+
+                            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                                <h2>World Of Code</h2>
+                                <p class="card-text"><i>“ In order to be irreplaceable, one must always be
+                                        different”</i>
+                                </p>
+                                <p class="card-text"><i>“ “Java is to JavaScript what car is to Carpet.”</i></p>
+                                <p class="card-text"><i>“ “First, solve the problem. Then, write the code.” ”</i></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p>
+                                        <a href="coding1.html" class="btn btn-outline-success my-2">Check More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                src="https://images.unsplash.com/photo-1494599948593-3dafe8338d71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3R1ZHlpbmclMjB3aXRoJTIwbGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="">
+
+                            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                                <h2>world Of Study</h2>
+                                <p class="card-text"><i>"A book is like a garden that can be carried in your
+                                        pocket.―Chinese
+                                        Proverb"</i></p>
+                                <p class="card-text"><i>"If you can believe it, your mind can achieve it."</i></p>
+                                <p class="card-text"><i>"Successful people are not gifted. They just work hard, then
+                                        succeed
+                                        on
+                                        purpose."</i></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p>
+                                        <a href="1 to 12 .html" class="btn btn-outline-success my-2">Check More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                src="https://images.unsplash.com/photo-1584697964328-b1e7f63dca95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHN0dWR5aW5nJTIwd2l0aCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="">
+                            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                                <h2>Other Activities</h2>
+                                <p class="card-text"><i>"In singing and dancing is the voice of the Law. "</i></p>
+                                <p class="card-text"><i>"“Time is a game played beautifully by children.”"</i></p>
+                                <p class="card-text"><i>"Always let them think of you as singing and dancing. "</i></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p>
+                                        <a href="other activies1.html" class="btn btn-outline-success my-2">Check
+                                            More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Optional JavaScript -->
+                <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+                    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                    crossorigin="anonymous"></script>
+                <!-- Code injected by live-server -->
+                <script type="text/javascript">
+                    // <![CDATA[  <-- For SVG support
+                    if ('WebSocket' in window) {
+                        (function () {
+                            function refreshCSS() {
+                                var sheets = [].slice.call(document.getElementsByTagName("link"));
+                                var head = document.getElementsByTagName("head")[0];
+                                for (var i = 0; i < sheets.length; ++i) {
+                                    var elem = sheets[i];
+                                    var parent = elem.parentElement || head;
+                                    parent.removeChild(elem);
+                                    var rel = elem.rel;
+                                    if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                                        var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                                        elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                                    }
+                                    parent.appendChild(elem);
+                                }
+                            }
+                            var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                            var address = protocol + window.location.host + window.location.pathname + '/ws';
+                            var socket = new WebSocket(address);
+                            socket.onmessage = function (msg) {
+                                if (msg.data == 'reload') window.location.reload();
+                                else if (msg.data == 'refreshcss') refreshCSS();
+                            };
+                            if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                                console.log('Live reload enabled.');
+                                sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                            }
+                        })();
+                    }
+                    else {
+                        console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+                    }
+        // ]]>
+                </script>
+
+            </div>
+        </div>
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto px-0 d-flex flex-column align-items-center justify-content-center">
+                <h1 class="display-5 fw-bold">Our Services</h1>
+                <p class="lead text-muted"><strong><i>Something short and leading about the collection below—its
+                            contents,
+                            the
+                            creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it
+                            entirely.</i></strong></p>
+                <p>
+                    <a href="contact1.html" class="btn btn-danger my-2">Contact Us</a>
+                    <a href="email us1.html" class="btn btn-success my-2">Email Us</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="container mx-8">
+            <div class="row mb-2">
+                <h4 class="fst-italic my-2 ">Programming And Coding</h4>
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div
+                            class="col p-4 d-flex flex-column position-static d-flex flex-column align-items-center justify-content-center ">
+                            <h3 class="mb-0">Programming</h3>
+                            <p class="card-text mb-auto"><i>A programming language is a computer language that is used
+                                    by
+                                    programmers (developers) to communicate with computers. It is a set of instructions
+                                    written in any specific language ( C, C++, Java, Python) to perform a specific task.
+                                    A programming language is mainly used to develop desktop applications, websites, and
+                                    mobile applications.</i></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p>
+                                    <a href="coding1.html" class="btn btn-outline-success my-2">Check More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img" width="250" height="250"
+                                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div
+                            class="col p-4 d-flex flex-column position-static d-flex flex-column align-items-center justify-content-center">
+                            <h3 class="mb-0">Coding</h3>
+                            <p class="mb-auto"><i>You’ve seen the craze for learning code. But what exactly is coding?
+                                    Coding is what makes it possible for us to create computer software, apps and
+                                    websites.
+                                    Your browser, your OS, the apps on your phone, Facebook, and this website – they’re
+                                    all
+                                    made with code.
+                                    Here’s a simple example of code, written in the Python language:Many coding
+                                    tutorials
+                                    .</i></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p>
+                                    <a href="coding1.html" class="btn btn-outline-success my-2">Check More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img" width="250" height="250"
+                                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="">
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="fst-italic text-align-center my-2 ">Tutions of 1st To 12th</h4>
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div
+                            class="col p-4 d-flex flex-column position-static d-flex flex-column align-items-center justify-content-center">
+                            <h3 class="mb-0">1st To 12th</h3>
+                            <p class="card-text mb-auto"><i>we teach the students maths , science , sst, english , hindi
+                                    .
+                                    There are many free tutions but we teach the students with more hard work and
+                                    efficentliy the students of board the scored hight marks in board exams.
+                                    we teach the students of evry class.
+                                </i></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p>
+                                    <a href="coding1.html" class="btn btn-outline-success my-2">Check More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-auto d-none d-lg-block ">
+                            <img class="bd-placeholder-img" width="250" height="250"
+                                src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3R1ZHlpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                                alt="">
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div
+                            class="col p-4 d-flex flex-column position-static d-flex flex-column align-items-center justify-content-center">
+                            <h3 class="mb-0">IIT And JEE</h3>
+                            <p class="mb-auto"><i>The students of class 11th and 12th or dropers can join our institueds
+                                    we
+                                    have indias best Jee or Neet teachers who have the 30 or 40 years teaching expirence
+                                    in
+                                    eduction feild.</i></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p>
+                                    <a href="coding1.html" class="btn btn-outline-success my-2">Check More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img" width="250" height="250"
+                                src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHN0dWR5aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="fst-italic text-align-center my-2 ">Other Activities</h4>
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div
+                            class="col p-4 d-flex flex-column position-static d-flex flex-column align-items-center justify-content-center">
+                            <h3 class="mb-0">Singing And Dancing</h3>
+                            <p class="card-text mb-auto"><i>This list includes both free and paid courses and lessons to
+                                    help you learn Singing and Dancing. Also, it is ideal for beginners, intermediates,
+                                    as
+                                    well as
+                                    experts individuals.This is a self-study course for singers and dancing of all
+                                    levels,
+                                    from beginner
+                                    to advanced. </i></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p>
+                                    <a href="coding1.html" class="btn btn-outline-success my-2">Check More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img" width="250" height="250"
+                                src="https://media.istockphoto.com/photos/hipster-guy-with-the-beard-in-headphones-is-playing-drum-and-sining-picture-id1299192953?b=1&k=20&m=1299192953&s=170667a&w=0&h=CmKp5D1sBlDGYojg4bDTcRdEpIfY5PPDEcgDYVdiylM="
+                                alt="">
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div
+                            class="col p-4 d-flex flex-column position-static d-flex flex-column align-items-center justify-content-center">
+                            <h3 class="mb-0">Playing Games</h3>
+                            <p class="mb-auto"><i>The idea of „classes” in gaming is older than video games themselves,
+                                    but
+                                    thanks to its extreme usefulness has made the jump to the digital medium seamlessly
+                                    and
+                                    smoothly. In fact, it works so well that it found home in several different genres,
+                                    not
+                                    only in role-playing games.</i></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p>
+                                    <a href="coding1.html" class="btn btn-outline-success my-2">Check More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img" width="250" height="250"
+                                src="https://images.unsplash.com/photo-1514863775978-c611132e6691?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGxheWluZyUyMGdhbWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-8">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+                <div class="col">
+                    <div class="card shadow-sm ">
+                        <img class="bd-placeholder-img card-img-top" width="250" height="250"
+                            src="https://media.istockphoto.com/vectors/flat-pc-laptop-and-smartphone-vector-id1354741086?k=20&m=1354741086&s=612x612&w=0&h=vDyADDpiTANKEc_vkXSC6a6JvGkelC3CviLI1zSadWo="
+                            alt="">
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm ">
+                        <img class="bd-placeholder-img card-img-top" width="250" height="250"
+                            src="https://media.istockphoto.com/photos/programming-languages-software-development-overview-picture-id1202360357?b=1&k=20&m=1202360357&s=170667a&w=0&h=oJmeeGMsfiGUyNKCIcmfIjllcmp866OPAvs6REXn-B8="
+                            alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm ">
+                        <img class="bd-placeholder-img card-img-top " width="250" height="250"
+                            src="https://media.istockphoto.com/vectors/programmer-works-at-a-laptop-freelancer-an-employee-programs-and-vector-id1208046075?k=20&m=1208046075&s=612x612&w=0&h=W_IOMbg6J_i7FwZIPkCJ-1I_0uAQ05rQyHVQMcMJAyM="
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-3">
+            <!-- <main class="form-signin  "> -->
+            <form>
+                <h1 class="display-5 fw-bold">Contact Us :</h1>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name">
+                    <label for="floatingInput">Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name">
+                    <label for="floatingInput">Phone Number</label>
+                </div>
+                <div class="form-floating mb-3 my-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name">
+                    <label for="floatingInput">Email Address</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name">
+                    <label for="floatingInput">Fathers Name</label>
+                </div>
+                <div class="checkbox mb-3">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                </div>
+                <button class="w-100 btn btn-lg btn-success" type="submit">submit Now</button>
+            </form>
+            <!-- </main> -->
+        </div>
+        <div class="container">
+            <footer class="row row-cols-5 py-5 my-5 border-top">
+                <!-- <div class="col">
+                <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                   </a>
+                <p class="text-muted">© 2022</p>
+            </div> -->
+
+                <div class="col">
+
+                </div>
+
+                <div class="col">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
